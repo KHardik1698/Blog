@@ -1,0 +1,23 @@
+header {
+  margin: 1%;
+}
+ul {
+  list-style-type: none;
+  display: inline;
+}
+li {
+  display: inline;
+  padding: 3%;
+}
+aside {
+  float: right;
+  width: 20%;
+  margin: 5%;
+}
+section {
+  margin: 3%;
+}
+footer {
+  text-align: center;
+  margin: 2%;
+}
