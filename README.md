@@ -1,2 +1,3 @@
-# Blog
-This Repository will have my First Blog.
+# Blog Webpage
+
+This Repository contains my First Blog Webpage.
