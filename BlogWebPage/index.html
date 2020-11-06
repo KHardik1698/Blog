@@ -3,27 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/jpg" href="./images/hjk3.png" />
-    <!-- <link rel="stylesheet" href="./styles/style.css" /> -->
+    <link rel="shortcut icon" type="image/jpg" href="./images/logo.png" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>My Blog Page</title>
   </head>
   <body>
-    <header>
+    <header class="blog-header">
       <div>
         <nav>
-          <img src="./images/hjk3.png" alt="My Logo" height="7%" width="5%" />
           <ul>
-            <li><a href="#1">Link 1</a></li>
-            <li><a href="#2">Link 2</a></li>
-            <li><a href="#3">Link 3</a></li>
-            <li><a href="#4">Link 4</a></li>
-            <li><a href="#5">Link 5</a></li>
+            <img src="./images/logo.png" alt="My Logo" id="blog-logo" />
+            <li class="nav-item"><a href="#1">Link 1</a></li>
+            <li class="nav-item"><a href="#2">Link 2</a></li>
+            <li class="nav-item"><a href="#3">Link 3</a></li>
+            <li class="nav-item"><a href="#4">Link 4</a></li>
+            <li class="nav-item"><a href="#5">Link 5</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
-      <h1>My First Blog</h1>
+      <div>
+        <div>
+          <h1 class="banner-text">My First Blog</h1>
+        </div>
+      </div>
       <aside>
         <div>
           <span>
@@ -37,7 +41,9 @@
         </div>
       </aside>
       <section>
-        <img src="./images/hjk3.png" alt="My Logo" height="25%" width="25%" />
+        <div class="banner-box">
+          <img src="./images/logo.png" alt="My Logo" id="banner-image" />
+        </div>
       </section>
       <section>
         <div>
